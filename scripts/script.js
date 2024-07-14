@@ -61,7 +61,7 @@ function NavOpenLang(){
         if (newSelect[0].innerHTML != `каз<img src="images/IconFrame.png" alt="arrow">`){
             newSelect[0].innerHTML = `каз<img src="images/IconFrame.png" alt="arrow">`;
             document.body.innerHTML = kk;
-            location.replace('kkindex.html');
+            location.replace('../kkindex.html');
         }
     });
 }
